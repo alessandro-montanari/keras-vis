@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 
 import numpy as np
-from keras import backend as K
+from tensorflow.keras import backend as K
 from .utils import utils
 
 

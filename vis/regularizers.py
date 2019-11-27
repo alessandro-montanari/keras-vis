@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from __future__ import division
 
 import numpy as np
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 from .losses import Loss
 from .utils import utils

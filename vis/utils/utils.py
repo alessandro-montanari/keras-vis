@@ -11,8 +11,8 @@ import numpy as np
 import matplotlib.font_manager as fontman
 
 from skimage import io, transform
-from keras import backend as K
-from keras.models import load_model
+from tensorflow.keras import backend as K
+from tensorflow.keras.models import load_model
 
 import logging
 logger = logging.getLogger(__name__)

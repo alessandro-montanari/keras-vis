@@ -1,4 +1,4 @@
-from keras import backend as K
+from tensorflow.keras import backend as K
 
 
 # Import backend depending on config

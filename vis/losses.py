@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from keras import backend as K
+from tensorflow.keras import backend as K
 from .utils import utils
 
 
@@ -11,6 +11,7 @@ class Loss(object):
     The attribute `name` should be defined to identify loss function with verbose outputs.
     Defaults to 'Unnamed Loss' if not overridden.
     """
+
     def __init__(self):
         self.name = "Unnamed Loss"
 
@@ -55,6 +56,7 @@ class ActivationMaximization(Loss):
     One might also use this to generate an input image that maximizes both 'dog' and 'human' outputs on the final
     `keras.layers.Dense` layer.
     """
+
     def __init__(self, layer, filter_indices):
         """
         Args:
